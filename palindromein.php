@@ -10,8 +10,12 @@
  * @since      File available since Release 1.0
  */
 
+
+$wordArray = ['Rotomotor', 'Ama', 'Casa', 'Tato'];
+$count = count($wordArray) -1;
+$random = rand(0, $count);
 // The word to evaluate
-$word = strtolower("Rotomotores");
+$word = strtolower($wordArray[$random]);
 
 // An empty array
 $word_array = [];
