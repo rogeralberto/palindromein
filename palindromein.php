@@ -10,11 +10,16 @@
  * @since      File available since Release 1.0
  */
 
-
+// Array of words
 $wordArray = ['Rotomotor', 'Ama', 'Casa', 'Tato'];
+
+// how many words are in the Array
 $count = count($wordArray) -1;
+
+// Choose a word randomly
 $random = rand(0, $count);
-// The word to evaluate
+
+// The word from the array to evaluate
 $word = strtolower($wordArray[$random]);
 
 // An empty array
