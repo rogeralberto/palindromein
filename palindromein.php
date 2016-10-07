@@ -37,9 +37,9 @@ echo "The inverse of that word is: ". $join . "<br />";
 
 // If both words are equal then that word is palindromein and echo the message.
 if ($join == $word){
-  echo "<br />That word Is a palindromein";
+  echo "<br />That word Is a palindrome";
 
 }else{
-  echo "<br />That word Is not a palindromein";
+  echo "<br />That word Is not a palindrome";
 
 }
