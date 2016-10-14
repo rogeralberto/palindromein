@@ -1,2 +1,2 @@
 # Palindromein
-This is a simple script to identify a Palindromein Word
+This is a simple script to identify a Palindrome Word
